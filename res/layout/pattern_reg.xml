@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff222233" >
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff006699" />
+
+    <FrameLayout
+        android:id="@+id/enterPattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <com.example.bioauthentication.utils.Lock9View
+            android:id="@+id/lock_viewFirstTry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:lineColor="#ff006699"
+            app:lineWidth="8dp"
+            app:nodeOnSrc="@drawable/lock_9_view_node_highlighted"
+            app:nodeSrc="@drawable/lock_9_view_node_normal" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/confirmPattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" >
+
+        <com.example.bioauthentication.utils.Lock9View
+            android:id="@+id/lock_viewConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:lineColor="#ff006699"
+            app:lineWidth="8dp"
+            app:nodeOnSrc="@drawable/lock_9_view_node_highlighted"
+            app:nodeSrc="@drawable/lock_9_view_node_normal" />
+    </FrameLayout>
+
+</FrameLayout>

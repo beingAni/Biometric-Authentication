@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BioAuthentication</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_report">AddReport</string>
+    <string name="title_activity_draw_log">DrawLog</string>
+    <string name="title_activity_draw_reg">DrawReg</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_home1">Home1</string>
+    <string name="title_activity_home3">Home3</string>
+    <string name="title_activity_image_log">ImageLog</string>
+    <string name="title_activity_image_reg">ImageReg</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_motion_login">MotionLogin</string>
+    <string name="title_activity_motion_register">MotionRegister</string>
+    <string name="title_activity_password">Password</string>
+    <string name="title_activity_pattern_log">PatternLog</string>
+    <string name="title_activity_pattern_reg">PatternReg</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_touch_home">TouchHome</string>
+    <string name="title_activity_touch_home1">TouchHome1</string>
+    <string name="title_activity_touch_home2">TouchHome2</string>
+    <string name="title_activity_view_report">ViewReport</string>
+    <string name="title_activity_voice_login">VoiceLogin</string>
+    <string name="title_activity_voice_register">VoiceRegister</string>
+
+</resources>

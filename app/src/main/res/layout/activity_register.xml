@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p9"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Register" >
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg1"
+        android:hint="Email Id"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/EditText03"
+        android:layout_below="@+id/EditText03"
+        android:layout_marginTop="36dp"
+        android:background="#7DC245"
+        android:text="Password"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/EditText02"
+        android:layout_alignLeft="@+id/EditText02"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg1"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="User Name" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/EditText01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/bg1"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/EditText03"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/EditText02"
+        android:layout_below="@+id/EditText02"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/bg1"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Mobile No" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

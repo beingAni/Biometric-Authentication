@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p26"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Register" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:background="@drawable/bg5"
+        android:layout_marginTop="107dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="User Name"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/Button01"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:background="#4BA2D8"
+        android:text="SENSOR"
+        android:layout_below="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:background="#4BA2D8"
+        android:text="VOICE"
+        android:layout_below="@+id/editText1"
+        android:layout_alignStart="@+id/editText1"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:id="@+id/Button02"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="113dp"
+        android:background="#4BA2D8"
+        android:text="TOUCH" />
+
+</RelativeLayout>

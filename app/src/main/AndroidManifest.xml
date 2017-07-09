@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.system_3.bioauthentication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home1" />
+        <activity android:name=".Home" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Register" />
+        <activity android:name=".Password" />
+        <activity android:name=".VoiceRegister" />
+        <activity android:name=".MotionRegister" />
+        <activity android:name=".TouchHome" />
+        <activity android:name=".ImageReg" />
+        <activity android:name=".DrawReg" />
+        <activity android:name=".MotionLogin" />
+        <activity android:name=".VoiceLogin" />
+        <activity android:name=".TouchHome1" />
+        <activity android:name=".ImageLog" />
+        <activity android:name=".DrawLog" />
+        <activity android:name=".PatternReg" />
+        <activity android:name=".PatternLog" />
+        <activity android:name=".TouchHome2" />
+        <activity android:name=".AddReport" />
+        <activity android:name=".ViewReport" />
+        <activity android:name=".Home3"></activity>
+    </application>
+
+</manifest>
